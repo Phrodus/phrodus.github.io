@@ -1,2 +1,2 @@
 # phrodus.github.io
-Heil Hitler.
+Website for Phrodus on YouTube and other platforms in future.
