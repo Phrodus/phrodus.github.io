@@ -16,7 +16,7 @@
 			margin-bottom: 0px;
 		}
 		
-		h2 {
+		h3 {
 			margin: 0px;
 			padding: 0px 0px 20px;
 		}
@@ -96,9 +96,9 @@
 <body id="top">
 	<div class="navbar">
 		<a href="https://www.youtube.com/channel/UCw2AUHv1htYMdyqIiFlBcMQ">YouTube</a>
-		<a href="#news">News</a>
+		<a href="#rebuttals">Rebuttals</a>
 			<div class="dropdown">
-				<button class="dropbtn" onclick="myFunction()">External LInks</button>
+				<button class="dropbtn" onclick="myFunction()">External Links</button>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="https://www.youtube.com/channel/UCthhuIxBqpND77Z5jI3lObg">My Other Channel</a>
 						<a href="#">Second Link</a>
@@ -109,29 +109,14 @@
 	</div>
 	
 	<h1>Phrodus</h1>
-	<h2>Coding on YouTube</h2>
+	<h3>Coding on YouTube</h3>
 
 	<p>I am learning how to code as a hobby.</p>
 
 	<p><b>Languages:</b> HTML; JavaScript; CSS.</p>
+	
+	<h2>Rebuttals</h2>
 
 
-
-	<script>
-	// When the user clicks on the button, toggle between hiding and showing the dropdown content.
-	function myFunction() {
-		document.getElementById("myDropdown").classList.toggle("show");
-	}
-
-	// Close the dropdown if the user clicks outside of it.
-	window.onclick = function(e) {
-		if (!e.target.matches('.dropbtn')) {
-			var myDropdown = document.getElementById("myDropdown");
-		}	
-		if (myDropdown.classList.contains('show')) {
-			myDropdown.classList.remove('show');
-		}
-	}
-	</script>
 </body>
 </html>
