@@ -39,6 +39,10 @@
 			color: blue;
 		}
 		
+		a:hover {
+			text-decoration: underline;
+		}
+		
 		ul {
 			margin: 5px 0px 0px;
 		}
@@ -46,6 +50,12 @@
 		.spacious_p {
 			margin: 0px;
 			padding: 50px 0px 0px;
+		}
+		
+		.centred_p {
+			margin: 0px;
+			padding: 50px 0px 0px;			
+			text-align: center;
 		}
 		
 		p {
@@ -116,17 +126,17 @@
 	</style>
 </head>
 
-<body>
+<body onload="confetti()">
 	<div class="navbar">
 			<div class="dropdown">
-				<button class="dropbtn" onclick="myFunction()">Channels</button>
+				<button class="dropbtn" onclick="dropdown()">Channels</button>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="https://www.youtube.com/channel/UCw2AUHv1htYMdyqIiFlBcMQ">On YouTube</a>
 						<a href="#">On LBRY</a>
 					</div>
 			</div>
 		<a href="#brave">Why Brave?</a>
-		<a href="https://www.youtube.com/channel/UCthhuIxBqpND77Z5jI3lObg">My Other Channel</a>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Bitchute</a>
 		<a style="float: right" href="https://brave.com/download/">Download Brave Broswer</a>
 	</div>
 	
@@ -140,10 +150,15 @@
 	<h4>The best internet browser</h4>
 	<p><b>Disclaimer:</b> I am not an employee of Brave, nor am I being paid by Brave.</p>
 	<p>If you are reading this site with Brave Broswer (PC or mobile), good. If not, you should use Brave Broswer. Brave blocks ads by default, is fast, and allows you to bypass paywalls by blocking JavaScript . Also, you can open a Tor circuit and access <b>.onion</b> sites.</p>
-	<p>Read these two webpages to learn more about why you should download Brave:<br>
+	<p>Read these two webpages to learn more about why you should download Brave:</p>
 	<ul>
 		<li><i><a href="https://dailystormer.su/remember-to-support-brave-browser/">Daily Stormer: Remember to Support Brave Browser</a></i></li>
 		<li><i><a href="https://dailystormer.su/newish-netflix-docu-drama-on-social-networks-is-actually-very-good/">Daily Stormer: Newish Netflix Docu-Drama on Social Networks is Actually Very Good</a></i> (read from the heading "Netflix Tho?")</li>
 	</ul>
+	<p class="centred_p">If you haven't already, <a href="https://brave.com/download/">download Brave here</a>.</p>
+	
+	<h2>My Other Channel</h2>
+	<h4>A variety channel</h4>
+	<p style="padding-bottom: 30px">Aside from Phrodus, I also run <a href="https://www.youtube.com/channel/UCthhuIxBqpND77Z5jI3lObg">The Big British Flag</a> on YouTube. There is no set theme; I upload whatever I want.</p>
 </body>
 </html>
