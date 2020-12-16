@@ -1,2 +1,2 @@
 # phrodus.github.io
-This is Phrodus' website. 
+This repository is the home of the files for Phrodus' website, https://phrodus.github.io. Phrodus' website links to his projects.
